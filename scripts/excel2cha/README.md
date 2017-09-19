@@ -6,7 +6,7 @@
 	```python generate_headers.py```
 	OR
 	2. Running the file in Python IDLE
-3. At the prompt, select the excel file to use. It must have a `Sessions` and a `Participants` sheet with at least the following headers:
+3. At the prompt, select the excel file to use. A sample spreadsheet can be found in the `sample/` folder. It must have a `Sessions` and a `Participants` sheet with at least the following headers:
 	- Sessions:
 		- Session name
 		- Length of audio
@@ -24,5 +24,4 @@
 		- Sex
 		- Languages (order of proficiency)
 		- Usual role in recordings
-A sample spreadsheet can be found in the sample/ folder
 4. The header files will be generated in an Output folder.
