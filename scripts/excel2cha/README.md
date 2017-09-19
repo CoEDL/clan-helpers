@@ -24,4 +24,5 @@
 		- Sex
 		- Languages (order of proficiency)
 		- Usual role in recordings
+A sample spreadsheet can be found in the sample/ folder
 4. The header files will be generated in an Output folder.
