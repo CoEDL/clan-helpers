@@ -6,17 +6,22 @@ import pyexcel as pxl
 from Tkinter import Tk
 from tkFileDialog import askopenfilename
 #import xlrd
-
+from sys import argv
 
 
 if __name__ == '__main__':
+
     #Request input file
-    Tk().withdraw()
-    fileIn = askopenfilename(defaultextension='.xlsx',
-                             filetypes=[('Excel file','*.xls'),
-                                        ('Excel file','*.xlsx'),
-                                        ('CSV file','*.csv'),
-                                        ])#('All files','*.*')])
+    
+    if len(argv) == 2:
+        fileIn = argv[1]
+git     else:
+        Tk().withdraw()
+        fileIn = askopenfilename(defaultextension='.xlsx',
+                                 filetypes=[('Excel file','*.xls'),
+                                            ('Excel file','*.xlsx'),
+                                            ('CSV file','*.csv'),
+                                            ])#('All files','*.*')])       
     if fileIn == '':
         print 'Exiting: No file selected'
         raise SystemExit(0)

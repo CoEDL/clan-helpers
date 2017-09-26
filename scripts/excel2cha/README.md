@@ -25,3 +25,7 @@
 		- Languages (order of proficiency)
 		- Usual role in recordings
 4. The header files will be generated in an Output folder.
+
+#Command Line Example
+To run an example using the included sample spreadsheet, run the following command:
+```python generate_headers.py sample/mycorpus.xlsx```
