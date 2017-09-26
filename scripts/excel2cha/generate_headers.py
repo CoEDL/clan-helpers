@@ -15,7 +15,7 @@ if __name__ == '__main__':
     
     if len(argv) == 2:
         fileIn = argv[1]
-git     else:
+    else:
         Tk().withdraw()
         fileIn = askopenfilename(defaultextension='.xlsx',
                                  filetypes=[('Excel file','*.xls'),
