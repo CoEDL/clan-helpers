@@ -3,7 +3,9 @@
 1. Install Python 2.7 and pyexcel
 2. Run the script by either:
 	1. Command line - Navigate to this folder in command prompt and type:
-	```python generate_headers.py```
+	```
+	python generate_headers.py
+	```
 	OR
 	2. Running the file in Python IDLE
 3. At the prompt, select the excel file to use. A sample spreadsheet can be found in the `sample/` folder. It must have a `Sessions` and a `Participants` sheet with at least the following headers:
@@ -29,4 +31,6 @@
 #Command Line Example
 To run an example using the included sample spreadsheet, run the following command:
 
-```python generate_headers.py sample/mycorpus.xlsx```
+```
+python generate_headers.py sample/mycorpus.xlsx
+```
