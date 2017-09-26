@@ -28,4 +28,5 @@
 
 #Command Line Example
 To run an example using the included sample spreadsheet, run the following command:
+
 ```python generate_headers.py sample/mycorpus.xlsx```
